@@ -1,0 +1,10 @@
+- [x] Update image URLs in MenuItemRepository.java to use HTTP placeholders (via.placeholder.com) instead of HTTPS picsum to fix mixed content blocking
+- [x] Fix routing issue: Changed root "/" to "/menu" in WebController to avoid white label error
+- [x] Test the menu page to ensure images are visible after running the program (App compiled and running on http://localhost:8080)
+- [x] Reverted to original HTTPS picsum URLs as via.placeholder.com is not accessible
+- [x] Updated image URLs to use Unsplash food images that match the menu items
+- [x] Copied JPG images to src/main/resources/static/images/ and updated paths to /images/...
+- [x] Updated all image URLs to use JPG format and local paths for consistency
+- [x] Deploy updated code to Railway
+- [x] Verified Railway deployment and API response with updated image URLs
+- [x] Fixed root path "/" to serve menu page instead of 404 error

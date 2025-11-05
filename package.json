@@ -1,0 +1,15 @@
+{
+  "name": "restaurant-ordering-system",
+  "version": "1.0.0",
+  "description": "Restaurant Ordering System Frontend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "serve -s .",
+    "build": "echo 'Build complete'",
+    "start": "serve -s ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
